@@ -1,4 +1,4 @@
-# DeLELSTM-Decomposition-based-Linear-Explainable-LSTM-to-Capture-Instantaneous-and-Long-term-Effects
+# DeLELSTM: Decomposition-based Linear Explainable LSTM to Capture Instantaneous and Long term Effects
 ## Requirements
 Python == 3.9.
 
@@ -21,5 +21,5 @@ The following commands will train three task-specific datasets. These commands a
 ```
 python3 Electricity.py --model_name Delelstm
 python3 Exchange.py --model_name Delelstm
-python3 PMt.py --model_name Delelstm
+python3 PM.py --model_name Delelstm
 ```
