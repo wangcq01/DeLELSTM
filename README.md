@@ -1,8 +1,8 @@
 # DeLELSTM-Decomposition-based-Linear-Explainable-LSTM-to-Capture-Instantaneous-and-Long-term-Effects
 ## Requirements
-Python == 3.8.
+Python == 3.9.
 
-Pytorch: 1.8.1+cu102, Sklearn:0.23.2, Numpy: 1.19.2, Pandas: 1.1.3, Matplotlib: 3.3.2
+Pytorch: 2.0.0+cu117, Numpy: 1.23.5, Pandas: 1.5.3, Matplotlib: 3.7.1
 
 All the codes are run on GPUs by default.
 
@@ -19,7 +19,7 @@ The exchange data can be downloaded from https://github.com/laiguokun/multivaria
 The following commands will train three task-specific datasets. These commands are independent, if you are going to work only on one benchmark task, you can run only the corresponding command.
 
 ```
-python3 electricity_experiment.py --model_name decompose_Explain_LSTM_pertime
-python3 exchange_experiment.py --model_name decompose_Explain_LSTM_pertime
-python3 PM_experiment.py --model_name decompose_Explain_LSTM_pertime
+python3 Electricity.py --model_name Delelstm
+python3 Exchange.py --model_name Delelstm
+python3 PMt.py --model_name Delelstm
 ```
